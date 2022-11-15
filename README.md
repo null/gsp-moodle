@@ -9,9 +9,9 @@ Moodle was checked out via the cool command "git submodule add" - see https://do
 
 ### to install
 - create new folder 
-- clone this repository: https://github.com/null/gsp-moodle .
+- clone this repository: 
 `
-git clone --recurse-submodules  
+git clone --recurse-submodules   https://github.com/null/gsp-moodle .
 ` 
 
 ### update moodle core
