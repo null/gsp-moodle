@@ -1,0 +1,34 @@
+{
+    "repositories": [
+        {
+            "type": "path",
+            "url": "vendor_custom/null/mlgsp"
+        }
+    ],
+    "require": {
+        "moodle/moodle": "v4.*",
+        "null/mlgsp": "dev-master"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4.21"
+        },
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    },
+    "minimum-stability": "alpha",
+    "extra": {
+        "installer-paths": {
+            "vendor/moodle/moodle/theme/{$name}": [
+                "type:moodle-theme"
+            ],
+            "vendor/moodle/moodle/local/{$name}": [
+                "type:moodle-local"
+            ],
+            "vendor/moodle/moodle/customfield/field/{$name}": [
+                "type:moodle-customfield"
+            ]
+        }
+    }
+}

@@ -1,0 +1,277 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ac5168f7bcf7a835e4baf7321a62f5ee",
+    "packages": [
+        {
+            "name": "composer/installers",
+            "version": "v2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "c29dc4b93137acb82734f672c37e029dfbd95b35"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/c29dc4b93137acb82734f672c37e029dfbd95b35",
+                "reference": "c29dc4b93137acb82734f672c37e029dfbd95b35",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "composer/composer": "1.6.* || ^2.0",
+                "composer/semver": "^1 || ^3",
+                "phpstan/phpstan": "^0.12.55",
+                "phpstan/phpstan-phpunit": "^0.12.16",
+                "symfony/phpunit-bridge": "^5.3",
+                "symfony/process": "^5"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-main": "2.x-dev"
+                },
+                "plugin-modifies-install-path": true
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Dolibarr",
+                "Eliasis",
+                "Hurad",
+                "ImageCMS",
+                "Kanboard",
+                "Lan Management System",
+                "MODX Evo",
+                "MantisBT",
+                "Mautic",
+                "Maya",
+                "OXID",
+                "Plentymarkets",
+                "Porto",
+                "RadPHP",
+                "SMF",
+                "Starbug",
+                "Thelia",
+                "Whmcs",
+                "WolfCMS",
+                "agl",
+                "annotatecms",
+                "attogram",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "cockpit",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "eZ Platform",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "itop",
+                "known",
+                "kohana",
+                "laravel",
+                "lavalite",
+                "lithium",
+                "magento",
+                "majima",
+                "mako",
+                "matomo",
+                "mediawiki",
+                "miaoxing",
+                "modulework",
+                "modx",
+                "moodle",
+                "osclass",
+                "pantheon",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "processwire",
+                "puppet",
+                "pxcms",
+                "reindex",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "sydes",
+                "sylius",
+                "tastyigniter",
+                "wordpress",
+                "yawik",
+                "zend",
+                "zikula"
+            ],
+            "support": {
+                "issues": "https://github.com/composer/installers/issues",
+                "source": "https://github.com/composer/installers/tree/v2.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-08-20T06:45:11+00:00"
+        },
+        {
+            "name": "moodle/moodle",
+            "version": "v4.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/moodle/moodle.git",
+                "reference": "8febbe39733645a1aeb55f22d2adfb8d66dfc50d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/moodle/moodle/zipball/8febbe39733645a1aeb55f22d2adfb8d66dfc50d",
+                "reference": "8febbe39733645a1aeb55f22d2adfb8d66dfc50d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-curl": "*",
+                "ext-dom": "*",
+                "ext-fileinfo": "*",
+                "ext-gd": "*",
+                "ext-hash": "*",
+                "ext-iconv": "*",
+                "ext-intl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-openssl": "*",
+                "ext-pcre": "*",
+                "ext-simplexml": "*",
+                "ext-spl": "*",
+                "ext-xml": "*",
+                "ext-xmlreader": "*",
+                "ext-zip": "*",
+                "ext-zlib": "*",
+                "php": ">=7.3.0"
+            },
+            "require-dev": {
+                "behat/behat": "3.10.*",
+                "behat/mink": "~1.8",
+                "behat/mink-goutte-driver": "~1.2",
+                "friends-of-behat/mink-extension": "dev-master",
+                "mikey179/vfsstream": "^1.6",
+                "oleg-andreyev/mink-phpwebdriver": "^1.0",
+                "phpunit/phpunit": "9.5.*",
+                "symfony/process": "^4.0 || ^5.0"
+            },
+            "suggest": {
+                "ext-exif": "Enabling Exif PHP extension is recommended, it is used by Moodle to parse image meta data.",
+                "ext-mysqli": "Needed when Moodle uses MySQL or MariaDB database.",
+                "ext-oci8": "Needed when Moodle uses Oracle database.",
+                "ext-pgsql": "Needed when Moodle uses PostgreSQL database.",
+                "ext-soap": "Enabling SOAP PHP extension is useful for web services and some plugins.",
+                "ext-sodium": "Enabling Sodium PHP extension is recommended, it is used by Moodle encryption API.",
+                "ext-sqlsrv": "Needed when Moodle uses MS SQL Server database.",
+                "ext-tokenizer": "Enabling Tokenizer PHP extension is recommended, it improves Moodle Networking functionality.",
+                "ext-xmlrpc": "Enabling XMLRPC PHP extension is useful for web services and Moodle networking."
+            },
+            "type": "project",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "description": "Moodle - the world's open source learning platform",
+            "homepage": "https://moodle.org",
+            "support": {
+                "source": "https://github.com/moodle/moodle/tree/v4.0.4"
+            },
+            "funding": [
+                {
+                    "type": "custom"
+                },
+                {
+                    "url": "https://moodle.com/donations/",
+                    "type": "custom"
+                }
+            ],
+            "time": "2022-09-10T10:15:57+00:00"
+        },
+        {
+            "name": "null/mlgsp",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "vendor_custom/null/mlgsp",
+                "reference": "4d2c03badadcaeec7d8bbda41ef4553b2324828c"
+            },
+            "require": {
+                "composer/installers": "~2.2",
+                "moodle/moodle": "v4.*",
+                "php": "^7.4 || ^8.0"
+            },
+            "type": "moodle-local",
+            "license": [
+                "GPLv3"
+            ],
+            "authors": [
+                {
+                    "name": "Bernhard Strehl"
+                }
+            ],
+            "description": "A local plugin for gsp-installation @ ml",
+            "keywords": [
+                "customization",
+                "local"
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "alpha",
+    "stability-flags": {
+        "null/mlgsp": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "7.4.21"
+    },
+    "plugin-api-version": "2.2.0"
+}

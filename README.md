@@ -7,11 +7,15 @@ for gsp
  
 ### to install
 - create new folder 
-- clone this repository: 
+- clone this repository
+- enter "composer install"
+- point Apache-VHOST to vendor/moodle/moodle
+- visit your website
 ` 
 
 ### update moodle core
-To update Moodle simply execute 
+To update Moodle to new version on DEV:
+Simply execute 
 `
 ./upgrade-moodle.sh
 `
