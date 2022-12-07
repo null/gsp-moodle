@@ -17,9 +17,6 @@
         "php": "^7.4 || ^8.0",
         "composer/installers": "~2.2",
         "moodle/moodle": "v4.*"
-    },
-    "config": {
-        "vendor-dir": "web"
     }
     
 }

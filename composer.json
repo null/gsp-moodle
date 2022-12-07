@@ -17,7 +17,7 @@
             "composer/installers": true
         }
     },
-    "minimum-stability": "alpha",
+    "minimum-stability": "stable",
     "extra": {
         "installer-paths": {
             "vendor/moodle/moodle/theme/{$name}": [
